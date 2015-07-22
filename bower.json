@@ -1,5 +1,6 @@
 {
   "name": "ng-sockets",
+  "description": "Component for using socket.io with AngularJS 1.*",
   "version": "0.1.0",
   "main": "./ng-sockets.js",
   "authors": [
@@ -8,5 +9,10 @@
   "license": "MIT",
   "dependencies": {
     "angular": "~1.4.3"
-  }
+  },
+  "keywords": [
+    "angular",
+    "socket.io",
+    "websockets"
+  ]
 }
