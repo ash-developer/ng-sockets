@@ -21,9 +21,8 @@ angular.module('ash.ng-sockets', ['ng'])
                     var args = arguments;
                     $scope = $scope || $rootScope;
 
-                    $scope.$apply(function () {
-                        callback.apply(socket, args);
-                    });
+                    callback.apply(socket, args);
+                    $scope.$digest();
                 };
             }
 
