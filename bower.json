@@ -1,0 +1,12 @@
+{
+  "name": "ng-sockets",
+  "version": "0.1.0",
+  "main": "./ng-sockets.js",
+  "authors": [
+    "Andrei Shevel <ash.developer@yandex.ru>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.4.3"
+  }
+}
